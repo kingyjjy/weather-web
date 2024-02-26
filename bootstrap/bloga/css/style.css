@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+.jumbotron{
+    margin-bottom: 0;
+}
+.imgbox{
+    width: 200px;
+}

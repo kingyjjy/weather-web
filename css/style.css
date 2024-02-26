@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('weather-icons.min.css');
+@import url('weather-icons-wind.min.css');
+@import url('remixicon.css');
+@import url('../slick/slick.css');
+@import url('../slick/slick-theme.css');
+@import url('../bootstrap/css/bootstrap.min.css');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+    font-size: 16px;
+    padding-top: 150px;
+}
+a, a:link{
+    text-decoration: none;
+    color: #333;
+}
+.a:hover{
+    text-decoration: underline;
+    color: #666;
+}
+/* header */
+
+header{
+    width: 100%;
+    height: 150px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.search{
+    border: 2px solid #e4e4e4;
+    border-radius:15px;
+}
+.btn-search{
+    border: none;
+    background-color: #fff;
+}
+
+/* section */
+.banner{
+    height: 750px;
+
+    background: #00d0ff url(../image/pngegg.png) repeat;
+}
+.banner .row{
+    padding-top: 50px;
+}
+.slider h1{
+    font-size: 45px;
+    letter-spacing: -1px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: #333;
+    margin-bottom: 0;
+}
+.desc{
+    font-size: 30px;
+    font-weight: 100;
+    color: #333;
+    line-height: 30px;
+}
+.text{
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.btn-download{
+    box-shadow: 3px 4px 0px 0px #dcecfb;
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	background-color:#bddbfa;
+	border-radius:15px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+/* .silder right */
+.slick-slide{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mobile-phone{
+    width: 300px;
+    height: 550px;
+    background-color: #48cbff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mobile-phone.pup{
+    background: #cdb2dd;
+}
+.top{
+    padding: 5px 10px;
+}
+.top i{
+    font-size: 25px;
+    color: #fff;
+}
+.mobile-date{
+    font-size: 14px;
+    color: #073e75;
+    padding: 0;
+    margin: 0;
+}
+.mobile-phone .content{
+    background-color: #98e2ff;
+    width: 100%;
+    height: 100%;
+    overflow: auto;  
+}
+.mobile-phone.pup .content{
+    background-color: #e2dee4;
+}
+.today-city-name{
+    color: #073e75;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 50px 0 10px;
+    text-transform: uppercase;
+}
+.today-city-time{
+    margin-bottom: 40px;
+}
+.weatherbox{
+    width: 65%;
+    margin: 50px auto 60px;
+    text-align: center;
+}
+.weatherbox .wi{
+    font-size: 60px;
+}
+.weatherbox .today-temp{
+    color: #073e75;
+    font-size: 50px;
+    line-height: 50px;
+}
+.today-temp span{
+    font-size: 16px;
+    vertical-align: text-top;
+}
+.today-temp-arrow{
+    font-size: 18px;
+}
+.today-temp-arrow span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.temp-box-pr{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.temp-box{
+    width: 80px;
+    height: 90px;
+    border-radius: 5px;
+    background: #48cbff;
+    padding: 10px;
+    font-size: 13px;
+    color: #073e75;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -1px;
+}
+.mobile-phone.pup .temp-box{
+    background: rgb(209, 193, 219);
+}
+.temp-box i{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.wi{
+    text-shadow: 0 0 10px rgba(84 , 100, 8, 0.5);
+}
+/* main01 */
+.main-text h1{
+    text-decoration: underline;
+    
+}
+.thtext th{
+    text-align: center;
+}
+#aqi{
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+
+/* footer */
+footer{
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: #efefef;
+    background-color: #00d0ff;
+}
+.sns a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    background-image: url(../image/sns.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin-top: 30px;
+}
+.sns .instagram{
+    
+    background-position: -275px -220px;
+
+}
+.sns .kakao{
+    background-position: -345px -220px;
+}
